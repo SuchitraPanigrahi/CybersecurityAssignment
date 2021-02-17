@@ -1,0 +1,11 @@
+To build and run
+###################
+java -jar converter.jar <absolute path of JSON file> <absolute path of XML file>
+
+Libraries used:
+#################
+gson-2.8.6.jar (https://jar-download.com/artifacts/com.google.code.gson/gson/2.8.6)
+
+####
+The code design is based on the peeking each element of the JSON and 
+checking the token using GSON jar utility for various cases like begin object, end object, Begin array etc
